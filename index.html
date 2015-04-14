@@ -5,18 +5,19 @@
     <title>Luisa Kalach</title>
     <link rel="stylesheet" href="bootstrap/bootstrap-3.3.4-dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
 
-    <link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script rel="text/javascript" href="bootstrap/bootstrap-3.3.4-dist/js/bootstrap.js"></script>
   </head>
   <body>
-    <core-header-panel mode="waterfall">
-      <div class="core-header">waterfall</div>
-      <div class="content"></div>
-    </core-header-panel>
-    <div id="nombre">
+    <div class="core-header">
+      <ul class = "nav navbar-nav navbar menu">
+        <li><a href="galeria.html">Galería</li>
+        <li><a href="#about">Biografía</li>
+        <li><a href="#contact">Contacto</li>
+      </ul>
+    </div>
+    <div id="artistName">
       <p>LUISA KALACH</p>
     </div>
 
@@ -49,19 +50,23 @@
       <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
-    <div class = "container">
-      <div id = "about">
-        <div class = "row">
-          <div class="col-lg-6">
-            <img class="img-circle" id = "image" src="images/luisa.jpg" alt="Generic placeholder image">
-          </div>
-          <div class = "col-lg-6">
-            <p>
-              Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos HHola! soy lu y tomo bonitas fotos ola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos
-            </p>
+    <section>
+      <div class = "container">
+        <div id = "about">
+          <div class = "row">
+            <div class="col-lg-6">
+              <img class="img-circle" id = "image" src="images/luisa.jpg" alt="Generic placeholder image">
+            </div>
+            <div class = "col-lg-6">
+              <p>
+                Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos HHola! soy lu y tomo bonitas fotos ola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos Hola! soy lu y tomo bonitas fotos
+              </p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <section>
       <div id="contact">
         <img id = "fotoContacto"src="images/.jpg">
         <p>
@@ -71,7 +76,7 @@
           Instagram: <br>
         </p>
       </div>
-    </div>
+    </section>
   <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
   <script charset="utf-8" type = 'text/javascript' src = "javascript.js"></script>
